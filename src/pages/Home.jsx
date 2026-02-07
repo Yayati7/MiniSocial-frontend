@@ -23,7 +23,7 @@ const Home = () => {
   useEffect(() => {
     loadPosts();
 
-    socketRef.current = io("http://localhost:5000");
+    socketRef.current = io("https://minisocial-backend-hj8i.onrender.com");
 
     socketRef.current.on("new_post", () => {
       loadPosts();
