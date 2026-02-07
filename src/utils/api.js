@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://mini-social-frontend-three.vercel.app/",
+  baseURL: "https://minisocial-backend-hj8i.onrender.com",
 });
 
 /* ---------- AUTH ---------- */
