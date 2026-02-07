@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://minisocial-backend-hj8i.onrender.com",
+  baseURL: "https://minisocial-backend-hj8i.onrender.com/api",
 });
 
 /* ---------- AUTH ---------- */
